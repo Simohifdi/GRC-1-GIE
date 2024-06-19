@@ -1,0 +1,48 @@
+graph TD
+    A[Préparation et Recherche] --> B[Définition des Offres]
+    B --> C[Prospection]
+    C --> D[Présentation et Négociation]
+    D --> E[Suivi et Conclusion]
+    E --> F[Gestion de la Relation Client]
+    F --> G[Marketing et Promotion]
+    G --> H[Rapport et Analyse]
+
+    subgraph Préparation et Recherche
+        A1[Analyse du marché] --> A
+        A2[Identification des prospects] --> A
+    end
+
+    subgraph Définition des Offres
+        B1[Création de packages] --> B
+        B2[Documentation] --> B
+    end
+
+    subgraph Prospection
+        C1[Contact initial] --> C
+        C2[Pitch commercial] --> C
+    end
+
+    subgraph Présentation et Négociation
+        D1[Réunions] --> D
+        D2[Négociation] --> D
+    end
+
+    subgraph Suivi et Conclusion
+        E1[Confirmation de la vente] --> E
+        E2[Coordination logistique] --> E
+    end
+
+    subgraph Gestion de la Relation Client
+        F1[Communication continue] --> F
+        F2[Évaluation post-événement] --> F
+    end
+
+    subgraph Marketing et Promotion
+        G1[Campagnes de communication] --> G
+        G2[Collaboration avec les médias] --> G
+    end
+
+    subgraph Rapport et Analyse
+        H1[Rapport de vente] --> H
+        H2[Feedback interne] --> H
+    end
